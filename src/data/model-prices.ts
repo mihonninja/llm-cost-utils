@@ -17037,6 +17037,18 @@ export const modelPricesData: Record<string, Record<string, unknown>> = {
     "mode": "chat",
     "output_cost_per_token": 0.000002
   },
+  "gemma-4-26b-a4b-it-maas": {
+    "input_cost_per_token": 1.5e-7,
+    "litellm_provider": "vertex_ai-language-models",
+    "max_input_tokens": 131072,
+    "max_output_tokens": 8192,
+    "max_tokens": 8192,
+    "mode": "chat",
+    "output_cost_per_token": 6e-7,
+    "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing",
+    "supports_system_messages": true,
+    "supports_vision": true
+  },
   "google.gemma-3-12b-it": {
     "input_cost_per_token": 9e-8,
     "litellm_provider": "bedrock_converse",
